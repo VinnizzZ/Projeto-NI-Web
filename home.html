@@ -33,36 +33,73 @@
         <!-- Header -->
         <header>
             <nav class="navbar"> <!-- Barra de navegação do cabeçalho -->
-                <a href="home.html" class="nav-item">Home</a>
+                <a href="#home" class="nav-item">Home</a>
                 <div class="dropdown">
                     <button class="botao-dropdown">Sobre</button>
                     <div class="dropdown-content">
-                        <a href="educação.html">Educação</a>
-                        <a href="expprof.html">Experiência Profissional</a>
+                        <a href="#educacao">Educação</a>
+                        <a href="#expprof">Experiência Profissional</a>
                     </div>
                 </div>
-                <a href="contato.html" class="nav-item">Contato</a>
+                <a href="#contato" class="nav-item">Contato</a>
             </nav>
         </header>
         <!-- Header -->
 
         <!-- Main -->
         <main>
-            <div class="author-info"> <!-- Minha introdução -->
+            <!-- Introdução -->
+            <div class="author-info" id="home">
                 <img src="img/AFoto.jpeg" alt="Auto retrato do autor" class="author-thumbnail">
-                <h2 class="author-name">Vinicius Binda</h2>
-                <p class="author-bio">Me chamo Vinicius Binda, tenho 21 anos e atualmente estou procurando uma
+                <h1 class="author-name"><strong>Vinicius Binda</strong></h1>
+                <p class="author-bio">
+                    Me chamo Vinicius Binda, tenho 21 anos e atualmente estou procurando uma
                     oportunidade de estágio dentro da área da tecnologia. Eu decidi iniciar minha carreira como
                     estagiário corporativo por ter facilidade com tecnologia, gostar de
                     novos desafios e ambientes dinâmicos. A oportunidade do jovem aprendiz me trouxe mais contato com
                     automatização de processos e pretendo levar isso adiante em minha próxima experiência. Por fim, sou
-                    um profissional com capacidade de rápida adaptação, dinamismo e iniciativa.</p>
-                <div class="social-links"> <!-- Icones e links para linkedin e github -->
-                    <a href="https://www.linkedin.com/in/vinicius-binda/"><i
-                            class="fab fa-linkedin social-icon"></i></a>
-                    <a href="https://github.com/VinnizzZ"><i class="fab fa-github social-icon"></i></a>
-                </div>
+                    um profissional com capacidade de rápida adaptação, dinamismo e iniciativa.
+                </p>
             </div>
+            <!-- Introdução -->
+
+            <!-- Educação -->
+            <div class="author-info" id="educacao" style="margin-top: 100px; margin-bottom: 100px;">
+                <h1>Educação</h1>
+
+                <h2 class="education-info">Faculdade</h2>
+                <p><strong>FECAP</strong> - Ciência da computação</p>
+                <p>2° semestre - Periodo matutino</p>
+
+                <h2 class="education-info">Idiomas</h2>
+                <p><strong>CNA</strong> - Inglês</p>
+                <p><strong>Certificado</strong> - First Certificate in English - Grade C</p>
+
+                <h2 class="education-info">Cursos extras</h2>
+                <p><strong>Udemy</strong> - Python</p>
+                <p><strong>Udemy</strong> - Excel</p>
+            </div>
+            <!-- Educação -->
+
+            <!-- Exériência Profissional -->
+            <div class="author-info" id="expprof" style="margin-top: 100px; margin-bottom: 100px;">
+                <h1>Exériência Profissional</h1>
+                <h2>Jovem Aprendiz - RaiaDrogasil S.A</h2>
+                <p>Atendimento a demandas de marketing de clientes internos e automatização do controle de chamados a partir do Excel.</p>
+            </div>
+            <!-- Exériência Profissional -->
+
+            <!-- Contatos -->
+            <div class="author-contacts" id="contato">
+                <h1>Contatos</h1>
+                <ul class="list-unstyled">
+                    <li><i class="fa-regular fa-envelope"></i> <a href="mailto:vinnibinda@hotmail.com">vinnibinda@hotmail.com</a></li>
+                    <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/5511953051698">+55 (11) 95305-1698</a></li>
+                    <li><i class="fab fa-linkedin social-icon"></i><a href="https://www.linkedin.com/in/vinicius-binda/">linkedin.com/in/vinicius-binda/</a></li>
+                    <li><i class="fab fa-github social-icon"></i><a href="https://github.com/VinnizzZ">github.com/VinnizzZ</a></li>
+                </ul>
+            </div>
+            <!-- Contatos -->
         </main>
         <!-- Main -->
 
@@ -72,12 +109,12 @@
                 <div class="row">
                     <!-- Coluna 1 -->
                     <div class="col-md-2 mb-3">
-                        <h5>Links Rápidos</h5>
+                        <h5>Acessos Rápidos</h5>
                         <ul class="list-unstyled">
-                            <li><a href="home.html">Home</a></li>
-                            <li><a href="educação.html">Educação</a></li>
-                            <li><a href="expprof.html">Experiência Profissional</a></li>
-                            <li><a href="contato.html">Contato</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#educacao">Educação</a></li>
+                            <li><a href="#expprof">Experiência Profissional</a></li>
+                            <li><a href="#contato">Contato</a></li>
                         </ul>
                     </div>
                     <!-- Coluna 2 -->
