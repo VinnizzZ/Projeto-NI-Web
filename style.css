@@ -1,0 +1,142 @@
+/* Estilos Gerais */
+* {font-family: 'Quicksand', sans-serif;}
+
+body {background-image: url(img/triangles_pattern.webp);}
+
+/* Estilos Gerais */
+
+/* Estilos Header */
+header {grid-area: h;}
+
+.navbar {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.navbar a {text-decoration: none; color: #fff;}
+
+.navbar a:hover {text-decoration: underline;}
+
+.navbar li {color: #fff;}
+
+/* Menu Dropdown */
+/* Botão */
+.botao-dropdown {
+  background-color: #ffffff00;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content {display: none; position: absolute;}
+
+.dropdown-content a {
+  color: #fff;
+  margin-top: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Abrir o dropdown */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Menu Dropdown */
+
+/* Estilos Header */
+
+/* Estilos Main */
+main {
+  grid-area: m;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  text-align: center;
+  background-color: #ffffff00;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.author-info {
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: #fff;
+}
+
+.author-thumbnail {
+  width: 160px;
+  height: 160px;
+  margin-top: 100px;
+  border-radius: 50%;
+  border: #fff solid 2px;
+}
+
+.author-name {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.author-bio {
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.author-contacts {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #fff;
+}
+
+.author-contacts a {text-decoration: none; color: #fff;}
+
+.author-contacts a:hover {text-decoration: underline; color: #aaa;}
+
+.author-contacts i {font-size: 20px;}
+
+.social-links {
+  font: 14px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.social-icon:hover {color: #666;}
+
+.education-info {margin-top: 30px; margin-bottom: 10px;}
+
+/* Estilos Main */
+
+/* Estilos Footer */
+footer {
+  grid-area: f;
+  font-family: 'Quicksand', sans-serif;
+  border: solid 1px;
+}
+
+footer a {text-decoration: none; color: #fff;}
+
+footer a:hover {text-decoration: underline; color: #aaa;}
+
+.col-md-2 {margin: 0 auto; padding: 0px 5px;}
+
+/* Estilos Footer */
